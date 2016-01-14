@@ -59,9 +59,9 @@ Failure                                    |      F       |   < 70    |  0   |
 
 This course is conducted entirely online. Each week, you will have various resources made available, including weekly readings from the textbooks and occasionally additional readings provided by the instructor. Most weeks will have homework assignments to be submitted. There will also be a presentation required and a forum post introduction required. You are expected to complete all assignments by their due dates.
 
-Meetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem [in the Google Spreadsheet](https://docs.google.com/spreadsheets/d/1fyy-azER3lViyZUbPoSZOOdDUWtw1sq-sm2qHscPHxA/edit?usp=sharing). Note there is a maximum of three presentatiosn per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.
+Meetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem [in the Google Spreadsheet](https://docs.google.com/spreadsheets/d/1xIO-Ofi9AQyVZcK5QABWmEhpGGCC0xpijAD_IA5ESKA/edit?usp=sharing). Note there is a maximum of three presentatiosn per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.
 
-[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1fyy-azER3lViyZUbPoSZOOdDUWtw1sq-sm2qHscPHxA/edit?usp=sharing)
+[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1xIO-Ofi9AQyVZcK5QABWmEhpGGCC0xpijAD_IA5ESKA/edit?usp=sharing)
 
 Further details on each of these assignments will be available in Blackboard and/or [this Github repository](https://github.com/jbryer/IS606Spring2016).
 
@@ -75,40 +75,42 @@ Further details on each of these assignments will be available in Blackboard and
 
 Start  | Due Date | Chapter | Topic                              
 -------|----------|:-------:|:-----------------------------------
- |     | 1       | [Intro to Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/1_Intro_to_Data.html)
-  |    | 2       | [Probability](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/2_Probability.html)
- |    | 3       | [Distributions](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/3_Distributions.html)
- |    | 4       | [Foundation for Inference](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/4_Foundations_for_Inference.html)
- |     | 5       | [Inference for Numerical Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/5_Numerical_Data.html)
- |     | 6       | [Inference for Categorical Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/6_Categorical_Data.html)
-  |    | 7       | [Linear Regression](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/7_Linear_Regression.html)
- |    | 8       | [Multiple & Logistic Regression](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/8_Multiple_Regression.html)
- |    | Kruschke | [Introduction to Bayesian Analysis](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/9_Bayesian.html)
- |    |         | Final Exam (due by 5pm on Dec-17)
+Jan-29 | Feb-7    | 1       | [Intro to Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/1_Intro_to_Data.html)
+Feb-8  | Feb-14   | 2       | [Probability](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/2_Probability.html)
+Feb-15 | Feb-28   | 3       | [Distributions](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/3_Distributions.html)
+Feb-29 | Mar-13   | 4       | [Foundation for Inference](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/4_Foundations_for_Inference.html)
+Mar-14 | Apr-3    | 5       | [Inference for Numerical Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/5_Numerical_Data.html)
+Mar-14 | Apr-3    | 6       | [Inference for Categorical Data](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/6_Categorical_Data.html)
+Apr-4  | Apr-17   | 7       | [Linear Regression](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/7_Linear_Regression.html)
+Apr-18 | May-1    | 8       | [Multiple & Logistic Regression](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/8_Multiple_Regression.html)
+May-2  | May-15   | Navarro | [Introduction to Bayesian Analysis](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Pages/9_Bayesian.html)
+May-17 | May-20   |         | Final Exam (due by 5pm on May 20, 2016)
 
 #### Meetup Schedule
 
 There will be weekly meetups. You are encouraged to attend as many as you can but recordings will generally be availabe within a few days of the meetup.
 
-[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1fyy-azER3lViyZUbPoSZOOdDUWtw1sq-sm2qHscPHxA/edit?usp=sharing)
+[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1xIO-Ofi9AQyVZcK5QABWmEhpGGCC0xpijAD_IA5ESKA/edit)
 
 
-Date           | Topic                           |
----------------|:--------------------------------|
-Thursday  7:00 pm | Introduction to the course |
-Thursday  7:00 pm | Introduction to data |
-Thursday  7:00 pm | Probability |
-Thursday  7:00 pm | Distributions Part I |
-Thursday  7:00 pm | Distributions Part II      |
-Thursday  7:00 pm | Foundation for Inference     |
-Thursday  7:00 pm | Foundation for Inference Part 2 |
-Thursday  7:00 pm | Inference for Numerical Data   |
-Thursday  7:00 pm | Inference for Categorical Data  |
-Thursday  7:00 pm | Linear Regression  |
-Thursday  7:00 pm | Linear Regression |
-Thursday  7:00 pm | Multiple & Logistic Regression  |
-Thursday  7:00 pm | Intro to Bayesian Analysis     |
-Thursday  7:00 pm | Conclusions                     |
+Date                      | Topic                           |
+--------------------------|:--------------------------------|
+See video                 | Introduction to the course      |
+Thursday, Feb 4, 7:00 pm  | Introduction to data            |
+Thursday, Feb 11, 7:00 pm | Probability                     |
+Thursday, Feb 18, 7:00 pm | Distributions Part I            |
+Thursday, Feb 25, 7:00 pm | Distributions Part II           |
+Thursday, Mar 9, 7:00 pm  | Foundation for Inference        |
+March 10                  | NO MEETUP                       |
+Thursday, Mar 17, 7:00 pm | Inference for Numerical Data    |
+Thursday, Mar 24, 7:00 pm | Inference for Categorical Data  |
+Thursday, Mar 31, 7:00 pm | TBD                             |
+Thursday, Apr 7, 7:00 pm  | Linear Regression               |
+Thursday, Apr 14, 7:00 pm | Linear Regression               |
+Thursday, Apr 21, 7:00 pm | Multiple & Logistic Regression  |
+April 28                  | NO MEETUP                       |
+Thursday, May 5, 7:00 pm  | Intro to Bayesian Analysis      |
+Thursday, May 12, 7:00 pm | Conclusions                     |
 
 
 ## Textbooks
@@ -119,9 +121,9 @@ Diez, D.M., Barr, C.D., & Çetinkaya-Rundel, M. (2015). *OpenIntro Statistics (3
 
 > This is an open source textbook and can be downloaded in PDF format [here](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/os3.pdf?raw=true), from the [OpenIntro](http://www.openintro.org/stat/textbook.php) website, or a printed copy can be ordered from [Amazon](https://www.openintro.org/redirect.php?go=amazon_os3&referrer=/stat/textbook.php).
 
-Kruschke, J.K. (2014). *Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan (2nd Ed)*. London: Academic Press.
+Navarro, D. (2015, version 0.5). *Learning Statistics with R*
 
-> This book can be purchased from [Amazon](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?ie=UTF8&qid=1436794516&sr=8-1&keywords=doing+bayesian+data+analysis&pebp=1436794519444&perid=1CYGPQC4K9QKW7FPDGNP), but also check out the [author's webiste (doingbayesiandataanalysis.blogspot.com/)](http://doingbayesiandataanalysis.blogspot.com/) for additional resources.
+> This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a [PDF version](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/lsr-0.5.pdf?raw=true), or buy a print copy from Lulu through the [author's website](http://health.adelaide.edu.au/psychology/ccs/teaching/lsr/).
 
 #### Recommended
 
@@ -132,6 +134,10 @@ Kabacoff, R.I. (2011). *R in Action*. Manning Publications.
 Wickham, H. *Advanced R.* Baca Raton, FL: Taylor & Francis Group.
 
 > Most of this book is available freely online at [adv-r.had.co.nz](http://adv-r.had.co.nz) but can be purchased from [Amazon](http://www.amazon.com/Advanced-Chapman-Hall-Hadley-Wickham/dp/1466586966/ref=sr_1_1?ie=UTF8&qid=1436796895&sr=8-1&keywords=advanced+R&pebp=1436796898598&perid=0921JRRF9KW2Z67NAF5F). 
+
+Kruschke, J.K. (2014). *Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan (2nd Ed)*. London: Academic Press.
+
+> This book can be purchased from [Amazon](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?ie=UTF8&qid=1436794516&sr=8-1&keywords=doing+bayesian+data+analysis&pebp=1436794519444&perid=1CYGPQC4K9QKW7FPDGNP), but also check out the [author's webiste (doingbayesiandataanalysis.blogspot.com/)](http://doingbayesiandataanalysis.blogspot.com/) for additional resources.
 
 #### Other Documents
 
@@ -144,32 +150,32 @@ Wickham, H. *Advanced R.* Baca Raton, FL: Taylor & Francis Group.
 
 The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded [here](https://github.com/jbryer/IS606Spring2016/blob/master/Data/os2_data.zip?raw=true).
 
-* Chapter 1. (due )
+* Chapter 1 - Introduction to Data (due 2/8/2016)
 	* Practice: 1.7 (available in R using the `data(iris)` command), 1.9, 1.23, 1.33, 1.55, 1.69
 	* Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70
-* Chapter 2. (due )
+* Chapter 2 - Probability (due 2/15/2016)
 	* Practice: 2.5, 2.7, 2.19, 2.29, 2.43
 	* Graded: 2.6, 2.8, 2.20, 2.30, 2.38, 2.44
-* Chapter 3. (due )
+* Chapter 3 - Distributions of Random Variables (due 2/29/2016)
 	* Practice: 3.1 (see `normalPlot`), 3.3, 3.17 (use `qqnormsim` from lab 3), 3.21, 3.37, 3.41
 	* Graded: 3.2 (see `normalPlot`), 3.4, 3.18 (use `qqnormsim` from lab 3), 3.22, 3.38, 3.42
-* Chapter 4. (due )
+* Chapter 4 Foundations for Inference (due 3/14/2016)
 	* Practice: 4.3, 4.13, 4.23, 4.25, 4.39, 4.47
 	* Graded: 4.4, 4.14, 4.24, 4.26, 4.34, 4.40, 4.48
-* Chapter 5. (due )
+* Chapter 5 - Inference for Numerical Data (due 4/4/2016)
 	* Practice: 5.5, 5.13, 5.19, 5.31, 5.45
 	* Graded: 5.6, 5.14, 5.20, 5.32, 5.48
-* Chapter 6. (due )
+* Chapter 6 - Inference for Categorical Data (due 4/4/2016)
 	* Practice: 6.5, 6.11, 6.27, 6.43, 6.47
 	* Graded: 6.6, 6.12, 6.20, 6.28, 6.44, 6.48
-* Chapter 7. (due )
+* Chapter 7 - Introduction to Linear Regression (due 4/18/2016)
 	* Practice: 7.23, 7.25, 7.29, 7.39
 	* Graded: 7.24, 7.26, 7.30, 7.40
-* Chapter 8. (due )
+* Chapter 8 - Multiple and Logistic Regression (due 5/2/2016)
 	* Practice: 8.1, 8.3, 8.7, 8.15, 8.17
 	* Graded: 8.2, 8.4, 8.8, 8.16, 8.18
-* Bayesian (due )
-	* Graded: 2.1, 5.1, 5.2
+*  Navarro Chapter 17 - Bayesian Analysis (due 5/16/2016)
+	* Graded: TBD
 
 ## Labs
 
@@ -206,8 +212,8 @@ The purpose of the data project is for you to conduct reproducible research usin
 
 **Important Dates:**
 
-* **Proposal due **
-* **Final Project due **
+* **Proposal due March 7, 2016**
+* **Final Project due May 16, 2016 **
 
 
 ## Software
