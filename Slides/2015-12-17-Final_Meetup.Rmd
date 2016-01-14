@@ -1,0 +1,118 @@
+---
+title: "IS606 - Final Meetup"
+author: Jason Bryer, Ph.D.
+date: December 17, 2015
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+	
+<div class="notes">
+Documentation on using ioslides is available here:
+http://rmarkdown.rstudio.com/ioslides_presentation_format.html
+Some slides are adopted (or copied) from OpenIntro: https://www.openintro.org/
+</div>
+
+```{r setup, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+set.seed(2112)
+library(ggplot2)
+library(openintro)
+library(IS606)
+library(reshape2)
+library(psych)
+library(reshape2)
+library(xtable)
+options(width=100)
+par(mar=c(2.5,1,2,1))
+
+```
+
+## Final Exam
+
+```{r}
+options(digits=3)
+data1 <- data.frame(x=c(10,8,13,9,11,14,6,4,12,7,5),
+					y=c(8.04,6.95,7.58,8.81,8.33,9.96,7.24,4.26,10.84,4.82,5.68))
+data2 <- data.frame(x=c(10,8,13,9,11,14,6,4,12,7,5),
+					y=c(9.14,8.14,8.74,8.77,9.26,8.1,6.13,3.1,9.13,7.26,4.74))
+data3 <- data.frame(x=c(10,8,13,9,11,14,6,4,12,7,5),
+					y=c(7.46,6.77,12.74,7.11,7.81,8.84,6.08,5.39,8.15,6.42,5.73))
+data4 <- data.frame(x=c(8,8,8,8,8,8,8,19,8,8,8),
+					y=c(6.58,5.76,7.71,8.84,8.47,7.04,5.25,12.5,5.56,7.91,6.89))
+
+desc <- data.frame(
+	Mean.x = c(mean(data1$x), mean(data2$x), mean(data3$x), mean(data4$x)),
+	Mean.y = c(mean(data1$y), mean(data2$y), mean(data3$y), mean(data4$y)),
+	Median.x = c(median(data1$x), median(data2$x), median(data3$x), median(data4$x)),
+	Median.y = c(median(data1$y), median(data2$y), median(data3$y), median(data4$y)),
+	SD.x = c(sd(data1$x), sd(data2$x), sd(data3$x), sd(data4$x)),
+	SD.y = c(sd(data1$y), sd(data2$y), sd(data3$y), sd(data4$y))
+)
+desc
+```
+
+## Correlations
+
+```{r}
+cor(data1$x, data1$y)
+cor(data2$x, data2$y)
+cor(data3$x, data3$y)
+cor(data4$x, data4$y)
+```
+
+## Linear Regressions
+
+```{r}
+lm(y ~ x, data=data1)$coefficients
+lm(y ~ x, data=data2)$coefficients
+lm(y ~ x, data=data3)$coefficients
+lm(y ~ x, data=data4)$coefficients
+```
+
+## Scatter Plots {.flexbox .vcenter}
+
+```{r}
+par.orig <- par(mfrow=c(2,2))
+plot(data1$x, data1$y); plot(data2$x, data2$y); plot(data3$x, data3$y); plot(data4$x, data4$y)
+par(par.orig)
+```
+
+## Anscombe's Quartet
+
+Data sets constructed by Fancis Anscombe in 1973 to demonstrate:
+
+* The importance of visualizing data.
+* The role of outliers on descriptive statistics.
+
+
+See more on Wikipedia: https://en.wikipedia.org/wiki/Anscombe%27s_quartet
+
+Generating Data with Identical Statistics but Dissimilar Graphics: http://www.tandfonline.com/doi/abs/10.1198/000313007X220057
+
+## My Work
+
+My research interest is in propensity score methods. Propensity score analysis (PSA) is a quasi-experimental design used to estimate causality from observational studies. It is generally conducted in two phases:
+
+1. Estimate propensity scores (i.e. probability of being in the treatment) using the observed covariates.
+	a. Check balance
+	b. Re-estimate propensity scores
+2. Estimate effect sizes using typical group differences (e.g. t-tests)
+
+Areas I have worked on:
+
+* Multilevel PSA (see [`multilevelPSA`](http://jason.bryer.org/multilevelPSA) R package)
+* Matching with non-binary treatments (see [`TriMatch`](http://jason.bryer.org/TriMatch) R package)
+* Bootstrapping PSA (see [`PSAboot`](http://jason.bryer.org/PSAboot) R package)
+
+## Thank You
+
+This has been a great semester. Please don't hesitate to reach out:
+
+* Email: jason.bryer@gmail.com
+* Github: http://github.com/jbryer
+* Blog: http://bryer.org
+* [LinkedIn](https://www.linkedin.com/profile/view?id=AAMAAATGdnoBOWXg80yqna6fSkgnZdabZP7Ck9w&trk=hp-identity-name)
+* Twitter: [@jbryer](https://twitter.com/jbryer) (don't Tweet very much though)
+
+
