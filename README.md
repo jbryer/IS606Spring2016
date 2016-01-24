@@ -35,10 +35,10 @@ Probabilistic techniques are the foundation of many data science applications fr
 
 ## Grading
 
-* Homework (18%)
-* Labs (36%)
+* Homework (16%)
+* Labs (40%)
 * Data Project (20%)
-* Final exam (20%)
+* Final exam (18%)
 * Meetup Presentation (5%)
 * Getting Aquainted (1%)
 
@@ -213,7 +213,7 @@ The purpose of the data project is for you to conduct reproducible research usin
 **Important Dates:**
 
 * **Proposal due March 7, 2016**
-* **Final Project due May 16, 2016 **
+* **Final Project due May 16, 2016**
 
 
 ## Software
