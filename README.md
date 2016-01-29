@@ -232,7 +232,7 @@ Once everything is installed, execute the following command in RStudio to instal
 
 ```
 install.packages(c('openintro','OIdata','devtools','ggplot2','psych','reshape2',
-				   'knitr','markdown'))
+				   'knitr','markdown','shiny'))
 devtools::install_github("jbryer/IS606")
 ```
 
