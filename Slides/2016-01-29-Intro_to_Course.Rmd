@@ -1,7 +1,7 @@
 ---
 title: "IS606 - Statistics & Probability for Data Analytics"
 author: Jason Bryer, Ph.D.
-date: August 27, 2015
+date: January, 2016
 output:
   ioslides_presentation:
     widescreen: true
@@ -32,9 +32,8 @@ http://rmarkdown.rstudio.com/ioslides_presentation_format.html
 
 A little about me:
 
-* Currently Director of Research and Project Evaluation at [Excelsior College](http://excelsior.edu)
-	* Principal Investigator for a Gates Foundation Grant exploring the effects of adapative learning technology in intro English and Biology courses
-	* Lead Evaluator for a HESC grant exploring the use of [Excelsior's Online Writing Lab](http://owl.excelsior.edu) in ENG*101 and at NYS Community Colleges.
+* Currently Executive Director at [Excelsior College](http://excelsior.edu)
+	* Principal Investigator for a Department of Education Grant (part of their FIPSE First in the World program) to develop a Diagnostic Assessment and Achievement of College Skills ([www.DAACS.net](http://www.daacs.net))
 * Authored over a dozen R packages including:
 	* [likert](http://github.com/jbryer/likert)
 	* [sqlutils](http://github.com/jbryer/sqlutils)
@@ -54,30 +53,31 @@ A little about me:
 
 ## Syllabus
 
-<iframe src="https://htmlpreview.github.io/?https://github.com/jbryer/IS606Fall2015/blob/master/README.html" height='600px' width='800px'></iframe>
+Syllabus and course materials are on Github: [https://github.com/jbryer/IS606Spring2015](https://github.com/jbryer/IS606Spring2015)
 
-Course website: [https://github.com/jbryer/IS606Fall2015](https://github.com/jbryer/IS606Fall2015)
+We will use Blackboard for the discussion forums and to submit assignments.
+
 
 ## Course Calendar
 
-<iframe src="https://www.google.com/calendar/embed?src=9p3723igj9imhd140f82117bi0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=o293mhge12kh918n8stmgp1bqs%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Assignments
 * Getting Aquainted (1%)
-* [Homework](https://github.com/jbryer/IS606Fall2015#homework-assignments) (18%)
+* [Homework](https://github.com/jbryer/IS606Spring2015#homework-assignments) (16%)
 	* Approximately six problems per chapter.
 	* Answers can be handwritten or typed (I suggest using R Markdown)
 	* Submit a PDF on Blackboard.
-* [Labs](https://github.com/jbryer/IS606Fall2015#labs) (36%)
+* [Labs](https://github.com/jbryer/IS606Spring2015#labs) (40%)
 	* Labs are designed to introduce to you doing statistics with R.
 	* Answer the questions in the main text as well as the "On Your Own" section.
 	* Submit both the R Markdown file and PDF of the output on Blackboard.
-* [Data Project](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Fall2015/blob/master/Project/IS606_Data_Project.html) (20%)
+* [Data Project](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2015/blob/master/Project/IS606_Data_Project.html) (20%)
 	* This allows you to analyze a dataset of your choosing. Projects will be shared with the class. This provides an opportunity for everyone to see different approaches to analyzing different datasets.
-	* Proposal is due October 19th (5%); Final project is due December 7th (15%).
-* Final exam (20%)
+	* Proposal is due March 7th (5%); Final project is due May 16th (15%).
+* Final exam (18%)
 * Meetup Presentation (5%)
-	* Present one practice problem during our weekly meetups. Signup using the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1fyy-azER3lViyZUbPoSZOOdDUWtw1sq-sm2qHscPHxA/edit?usp=sharing).
+	* Present one practice problem during our weekly meetups. Signup using the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1xIO-Ofi9AQyVZcK5QABWmEhpGGCC0xpijAD_IA5ESKA/edit).
 
 
 ## The `IS606` R Package
