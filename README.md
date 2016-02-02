@@ -95,7 +95,7 @@ There will be weekly meetups. You are encouraged to attend as many as you can bu
 
 Date                      | Topic                           |
 --------------------------|:--------------------------------|
-See video                 | Introduction to the course      |
+                          | Introduction to the course ([Video](https://youtu.be/w6dJ0NQlcX4), [Slides](https://htmlpreview.github.io/?https://github.com/jbryer/IS606Spring2016/blob/master/Slides/2016-01-29-Intro_to_Course.html))      |
 Thursday, Feb 4, 7:00 pm  | Introduction to data            |
 Thursday, Feb 11, 7:00 pm | Probability                     |
 Thursday, Feb 18, 7:00 pm | Distributions Part I            |
