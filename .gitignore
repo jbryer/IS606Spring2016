@@ -10,3 +10,6 @@ IS606Spring2016.Rproj
 Private/*
 .Rhistory
 Slides/working/
+Shiny-MASS/config.R
+Shiny-MASS/results
+Shiny-MASS-rsconnect
