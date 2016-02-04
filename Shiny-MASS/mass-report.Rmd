@@ -1,0 +1,123 @@
+---
+title: "Mathematics Anxiety Scale Results"
+runtime: shiny
+---
+
+
+```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+source('config.R')
+
+surveyId <- 'SV_0If2SzYPhQvEBRb' # MASS only
+# responseId <- 'R_1IblE2Oi6Hzjm0a' # For testing SASR only
+
+results.filename <- 'mass-results.rda'
+
+mass.levels <- c('Strongly Agree', 'Agree', 'Neither Agree nor Disagree', 
+                 'Disagree', 'Strongly Disagree')
+
+mass.items <- c('I find math interesting.',
+                'I get uptight during math tests.',
+                'I think that I will use math in the future.',
+                'Mind goes blank and I am unable to think clearly when doing my math test.',
+                'Math relates to my life.',
+                'I worry about my ability to solve math problems.',
+                'I get a sinking feeling when I try to do math problems.',
+                'I find math challenging.',
+                'Mathematics makes me feel nervous.',
+                'I would like to take more math classes.',
+                'Mathematics makes me feel uneasy.',
+                'Math is one of my favorite subjects.',
+                'I enjoy learning with mathematics.',
+                'Mathematics makes me feel confused.')
+mass.reverse <- c(TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,
+                  TRUE,FALSE,FALSE,TRUE)
+
+library(qualtrics)
+library(ggplot2)
+library(reshape2)
+library(likert)
+
+# Student data
+if(file.exists(results.filename)) {
+  load(results.filename)
+  student.mass <- sasr[sasr$ResponseID == responseId,]
+} else {
+  student.mass <- data.frame()
+}
+
+# Keep a cache of the SASR Qualtrics results
+if(nrow(student.mass) == 0) {
+	sasr <- getSurveyResults(user, pass, surveyId)
+	save(sasr, file=results.filename)
+	student.mass <- sasr[sasr$ResponseID == responseId,]
+}
+
+```
+
+```{r MASS, eval=TRUE, echo=FALSE, results='hide', message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
+mass.results <- student.mass[,11:24]
+names(mass.results) <- mass.items
+for(i in seq_len(ncol(mass.results))) {
+	mass.results[,i] <- factor(mass.results[,i], levels=1:5, labels=mass.levels, ordered=TRUE)
+}
+
+mass.results$ID <- 1
+tmp <- melt(mass.results, id.vars='ID', stringsAsFactors=FALSE)
+tmp$ID <- NULL
+names(tmp) <- c('Item','Response')
+tmp$xend <- 6
+tmp$Item <- as.character(tmp$Item)
+tmp$Response <- factor(tmp$Response, levels=mass.levels, ordered=TRUE)
+
+tmp$reverse <- mass.reverse
+if(sum(tmp$reverse) > 0) {
+	tmp[tmp$reverse,]$xend <- 0
+	tmp[tmp$reverse,]$Item <- paste0(tmp[tmp$reverse,]$Item, '\n(reverse scored)')
+}
+tmp$value <- abs(as.integer(tmp$Response) - tmp$xend)
+tmp$hjust <- ifelse(tmp$reverse, -2, 3)
+
+tmp$ItemWrap <- likert:::label_wrap_mod(tmp$Item, width=60)
+
+cbind(mass.items, mass.reverse, as.integer(mass.results[1:14]))
+
+# Strongly disagree = 5
+mass.scored <- as.integer(mass.results[1:14])
+mass.scored[mass.reverse] <- 6 - mass.scored[mass.reverse]
+mass.score <- 5 - (sum(mass.scored) / 14)
+mass.feedback <- ''
+
+if(mass.score <= 1.9) {
+	mass.feedback <- 'comfortably low math anxiety'
+} else if(mass.score <= 2.5) {
+	mass.feedback <- 'normal or average math anxiety'
+} else if(mass.score <= 3.5) {
+	mass.feedback <- 'moderately high math anxiety'
+} else if(mass.score <=3.9) {
+	mass.feedback <- 'high math anxiety'
+} else {
+	mass.feedback <- 'extremely high math anxiety'
+}
+
+```
+
+Your total score on the math anxiety section was `r prettyNum(mass.score, digits=2)` (score range is 0 to 4) which indicates that you have `r mass.feedback`.
+
+```{r MASS-figure, eval=TRUE, echo=FALSE, results='hide', message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+ggplot(tmp, aes(x=as.integer(Response), y=Item, color=value)) +
+		geom_segment(aes(xend=xend, yend=Item)) +
+		geom_point(size=5) +
+		geom_text(aes(label=value, hjust=hjust), size=4) +
+		theme(axis.ticks.x=element_blank(), legend.position='none') +
+		ylab('') + xlab('') +
+		scale_x_continuous(limits=c(0,6), breaks=1:5, labels=(gsub(' ', '\n', mass.levels))) + 
+		scale_color_continuous(limits=c(1,6), low='#FF9900', high='#660066')
+
+```
+
+
+##### References
+
+Bai, H., Wang, L., Pan, W., Frey, M. (2009). Measuring mathematics anxiety: psychometric analysis of a bidimensional affective scale. *Journal of Instructional Psychology, 36*(3). Retrieved from http://www.freepatentsonline.com/article/Journal-Instructional-Psychology/211235540.html
+
+Betz, N. E. (1978). Prevalence, distribution, and correlates of math anxiety in college students. *Journal of Counseling Psychology, 25*(5), 441-448.
