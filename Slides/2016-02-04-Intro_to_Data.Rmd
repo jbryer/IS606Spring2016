@@ -26,9 +26,7 @@ When working with files in R, there are two ways to specify paths: 1. Using abso
 
 ## Meetup Presentations
 
-1. 
-2. 
-3. 
+1. Chris Martin https://youtu.be/boZYP1mFUDw
 
 ## Intro to Data
 
