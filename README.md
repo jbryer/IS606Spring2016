@@ -222,6 +222,7 @@ We will make use of [R](http://r-project.org), an open source statistics program
 
 * R - [Windows](http://cran.r-project.org/bin/windows/base/) or [Mac](http://cran.r-project.org/bin/macosx/)
 * RStudio - [Download Windows or Mac version from here](http://www.rstudio.com/products/rstudio/download/)
+* LaTeX - [Windows use MiKTeX](http://miktex.org/) or [Mac use MacTeX](https://tug.org/mactex/) (it is best to use Safari to download this file as Chrome or Firefox will often fail)
 
 If using Windows, you also need to download and install these:
 
