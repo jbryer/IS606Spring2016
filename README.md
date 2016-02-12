@@ -100,7 +100,7 @@ Thursday, Feb 4, 7:00 pm  | Introduction to data ([Video](https://youtu.be/FKVkL
 Thursday, Feb 11, 7:00 pm | Probability                     |
 Thursday, Feb 18, 7:00 pm | Distributions Part I            |
 Thursday, Feb 25, 7:00 pm | Distributions Part II           |
-Thursday, Mar 9, 7:00 pm  | Foundation for Inference        |
+Thursday, Mar 3, 7:00 pm  | Foundation for Inference        |
 March 10                  | NO MEETUP                       |
 Thursday, Mar 17, 7:00 pm | Inference for Numerical Data    |
 Thursday, Mar 24, 7:00 pm | Inference for Categorical Data  |
