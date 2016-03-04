@@ -100,7 +100,7 @@ Thursday, Feb 4, 7:00 pm  | Introduction to data ([Video](https://youtu.be/FKVkL
 Thursday, Feb 11, 7:00 pm | Probability ([Video](https://youtu.be/bvExEkmMh9o), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-02-11-Probability.html#1))                    |
 Thursday, Feb 18, 7:00 pm | Distributions Part I ([Video](https://youtu.be/y08z0ZT_iWU), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-02-18-Distributions.html))           |
 Thursday, Feb 25, 7:00 pm | Distributions Part II ([Video](https://youtu.be/9bJpqD4QEF4), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-02-25-Distributions2.html))          |
-Thursday, Mar 3, 7:00 pm  | Foundation for Inference        |
+Thursday, Mar 3, 7:00 pm  | Foundation for Inference ([Video](https://youtu.be/jGWIHbtOeFI), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-03-03-Foundation_for_Inference.html))       |
 March 10                  | NO MEETUP                       |
 Thursday, Mar 17, 7:00 pm | Inference for Numerical Data    |
 Thursday, Mar 24, 7:00 pm | Inference for Categorical Data  |
