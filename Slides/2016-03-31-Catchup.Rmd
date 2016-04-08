@@ -1,0 +1,57 @@
+---
+title: "IS606 - Presentations and Data Project"
+author: Jason Bryer, Ph.D.
+date: March 31, 2016
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+	
+<div class="notes">
+Documentation on using ioslides is available here:
+http://rmarkdown.rstudio.com/ioslides_presentation_format.html
+Some slides are adopted (or copied) from OpenIntro: https://www.openintro.org/
+</div>
+
+```{r setup, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+set.seed(2112)
+library(ggplot2)
+library(openintro)
+library(IS606)
+library(reshape2)
+library(psych)
+par(mar=c(2.5,1,2,1))
+
+```
+
+
+## Meetup Presentations
+
+* Anthony Pineda (5.5)
+* Antonio Bayquen (5.19)
+
+
+## Data Project
+
+1. **Introduction**: What is your research question? Why do you care? Why should others care?
+
+2. **Data**: Write about the data from your proposal in text form. Address the following points:
+	* Data collection: Describe how the data were collected.
+	* Cases: What are the cases? (Remember: case = units of observation or units of experiment)
+	* Variables: What are the two variables you will be studying? State the type of each variable.
+	* Type of study: What is the type of study, observational or an experiment? Explain how you've arrived at your conclusion using information on the sampling and/or experimental design.
+	* Scope of inference - generalizability: Identify the population of interest, and whether the findings from this analysis can be generalized to that population, or, if not, a subsection of that population. Explain why or why not. Also discuss any potential sources of bias that might prevent generalizability.
+	* Scope of inference - causality: Can these data be used to establish causal links between the variables of interest? Explain why or why not.
+
+3. **Exploratory data analysis**: Perform relevant descriptive statistics, including summary statistics and visualization of the data. Also address what the exploratory data analysis suggests about your research question.
+
+## Data Project (cont.)
+
+4. **Inference**: If your data fails some conditions and you can't use a theoretical method, then you should use simulation. If you can use both methods, then you should use both methods. It is your responsibility to figure out the appropriate methodology.
+	* Check conditions
+	* Theoretical inference (if possible) - hypothesis test and confidence interval
+	* Brief description of methodology that reflects your conceptual understanding  
+
+5. **Conclusion**: Write a brief summary of your findings without repeating your statements from earlier. Also include a discussion of what you have learned about your research question and the data you collected. You may also want to include ideas for possible future research.
+
