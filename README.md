@@ -109,7 +109,7 @@ Thursday, Apr 7, 7:00 pm  | Linear Regression ([Video](https://youtu.be/Fp_mToh3
 Thursday, Apr 14, 7:00 pm | Linear Regression 2 ([Video](https://youtu.be/tMtSqJSHaZI), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-04-07-Linear_Regression2.html))              |
 Thursday, Apr 21, 7:00 pm | Multiple & Logistic Regression ([Video](https://youtu.be/xcfKsJFt3No), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-04-21-Multiple_Regression.html)) |
 April 28                  | NO MEETUP                       |
-Thursday, May 5, 7:00 pm  | Intro to Bayesian Analysis      |
+Thursday, May 5, 7:00 pm  | Intro to Bayesian Analysis ([Video](https://www.youtube.com/watch?v=FnWGn28779Y), [Slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/jbryer/IS606Spring2016/master/Slides/2016-05-05-Bayesian_Analysis.html))     |
 Thursday, May 12, 7:00 pm | Conclusions                     |
 
 

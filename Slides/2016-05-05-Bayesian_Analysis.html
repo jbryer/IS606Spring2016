@@ -118,6 +118,8 @@
 
 <p><a href='http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?ie=UTF8&amp;qid=1437688316&amp;sr=8-1&amp;keywords=Kruschke' title=''>Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan</a></p>
 
+<p><em>The Theory That Would Not Die: How Bayes&#39; Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy</em> by Sharon Bertsch McGrayne</p>
+
 </article></slide><slide class=''><hgroup><h2>Bayes Theorem</h2></hgroup><article  id="bayes-theorem" class="smaller ">
 
 <p>\[ P\left( A|B \right) =\frac { P\left( B|A \right) P\left( A \right)  }{ P\left( B|A \right) P\left( A \right) +P\left( B|{ A }^{ ` } \right) P\left( { A }^{ ` } \right)  }   \]</p>
@@ -276,7 +278,11 @@ abline(v=quantile(post_fish, probs=c(.25, .75)), col=&#39;green&#39;)</pre>
 
 </article></slide><slide class=''><hgroup><h2>Bayes Billiards Balls</h2></hgroup><article  id="bayes-billiards-balls" class="smaller ">
 
-<pre class = 'prettyprint lang-r'>shiny_demo(&#39;BayesBilliards&#39;, package=&#39;IS606&#39;)</pre></article></slide>
+<p>Consider a pool table of length one. An 8-ball is thrown such that the likelihood of its stopping point is uniform across the entire table (i.e. the table is perfectly level). The location of the 8-ball is recorded, but not known to the observer. Subsequent balls are thrown one at a time and all that is reported is whether the ball stopped to the left or right of the 8-ball. Given only this information, what is the position of the 8-ball? How does the estimate change as more balls are thrown and recorded?</p>
+
+<pre class = 'prettyprint lang-r'>shiny_demo(&#39;BayesBilliards&#39;, package=&#39;IS606&#39;)</pre>
+
+<p>See also: <a href='http://jason.bryer.org/posts/2016-02-21/Bayes_Billiards_Shiny.html' title=''>http://jason.bryer.org/posts/2016-02-21/Bayes_Billiards_Shiny.html</a></p></article></slide>
 
 
   <slide class="backdrop"></slide>
